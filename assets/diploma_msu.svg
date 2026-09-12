@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF6"/>
+      <stop offset="100%" stop-color="#F5F0E6"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B39359"/>
+      <stop offset="50%" stop-color="#D4B67E"/>
+      <stop offset="100%" stop-color="#9C783E"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <!-- Certificate Paper -->
+  <rect x="20" y="20" width="760" height="520" rx="6" fill="url(#bgGrad)" stroke="#E6DEC9" stroke-width="2" filter="url(#shadow)"/>
+  
+  <!-- Outer & Inner Decorative Borders -->
+  <rect x="36" y="36" width="728" height="488" rx="4" fill="none" stroke="#D1C3A5" stroke-width="1.5" stroke-dasharray="8 4"/>
+  <rect x="44" y="44" width="712" height="472" rx="3" fill="none" stroke="#B39359" stroke-width="0.8"/>
+
+  <!-- Corner Ornaments -->
+  <path d="M 46 66 L 66 46 M 46 76 L 76 46" stroke="#B39359" stroke-width="1"/>
+  <path d="M 754 66 L 734 46 M 754 76 L 724 46" stroke="#B39359" stroke-width="1"/>
+  <path d="M 46 494 L 66 514 M 46 484 L 76 514" stroke="#B39359" stroke-width="1"/>
+  <path d="M 754 494 L 734 514 M 754 484 L 724 514" stroke="#B39359" stroke-width="1"/>
+
+  <!-- Header / Institution -->
+  <text x="400" y="105" font-family="'Georgia', serif" font-size="14" fill="#7A684C" letter-spacing="4" text-anchor="middle" text-transform="uppercase">Московский Государственный Университет</text>
+  <text x="400" y="125" font-family="'Georgia', serif" font-size="11" fill="#9C8B72" letter-spacing="2" text-anchor="middle">ИМЕНИ М.В. ЛОМОНОСОВА • ФАКУЛЬТЕТ ПСИХОЛОГИИ</text>
+
+  <line x1="280" y1="145" x2="520" y2="145" stroke="#D1C3A5" stroke-width="1"/>
+
+  <!-- Main Title -->
+  <text x="400" y="200" font-family="'Georgia', serif" font-size="34" font-weight="bold" fill="#2C2825" letter-spacing="6" text-anchor="middle">ДИПЛОМ</text>
+  <text x="400" y="225" font-family="'Georgia', serif" font-size="12" fill="#887964" letter-spacing="3" text-anchor="middle">С ОТЛИЧИЕМ • № ВСГ 4829105</text>
+
+  <!-- Awarded to -->
+  <text x="400" y="270" font-family="'Georgia', serif" font-size="14" fill="#6A6258" font-style="italic" text-anchor="middle">Настоящий диплом выдан</text>
+  <text x="400" y="310" font-family="'Georgia', serif" font-size="26" font-weight="bold" fill="#1C1A18" letter-spacing="1" text-anchor="middle">Мельниковой Анне Сергеевне</text>
+
+  <!-- Details -->
+  <text x="400" y="348" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#524D46" text-anchor="middle">в том, что она освоила программу специалитета по направлению</text>
+  <text x="400" y="375" font-family="'Georgia', serif" font-size="17" font-weight="bold" fill="#38322B" letter-spacing="0.5" text-anchor="middle">«Психологическое консультирование и коррекция»</text>
+  <text x="400" y="405" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#6B645B" text-anchor="middle">Решением Государственной аттестационной комиссии присвоена квалификация: ПСИХОЛОГ</text>
+
+  <!-- Seal / Stamp -->
+  <g transform="translate(180, 460)">
+    <circle cx="0" cy="0" r="38" fill="none" stroke="url(#goldGrad)" stroke-width="2" stroke-dasharray="4 2"/>
+    <circle cx="0" cy="0" r="32" fill="#FCFAF6" stroke="#C2A873" stroke-width="1"/>
+    <text x="0" y="-8" font-family="'Georgia', serif" font-size="7" fill="#8F7846" text-anchor="middle" font-weight="bold">МГУ ИМ. ЛОМОНОСОВА</text>
+    <text x="0" y="5" font-family="'Georgia', serif" font-size="9" fill="#594720" text-anchor="middle" font-weight="bold">ПЕЧАТЬ</text>
+    <text x="0" y="16" font-family="'Georgia', serif" font-size="6" fill="#8F7846" text-anchor="middle">ГОС. АТТЕСТАЦИЯ</text>
+  </g>
+
+  <!-- Signatures -->
+  <g transform="translate(480, 455)">
+    <line x1="0" y1="0" x2="160" y2="0" stroke="#8C8273" stroke-width="1"/>
+    <text x="80" y="16" font-family="'Helvetica Neue', Arial, sans-serif" font-size="10" fill="#8C8273" text-anchor="middle">Декан факультета психологии</text>
+    <path d="M 30 -10 Q 50 -30 70 -5 T 110 -20 T 140 -5" fill="none" stroke="#2B3A4A" stroke-width="1.5"/>
+  </g>
+</svg>
